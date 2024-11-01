@@ -1,6 +1,6 @@
 // Import the HERO_CONTENT from index.js
 import { HERO_CONTENT } from "../constants/index"; // Adjust the path as necessary
-import profilePic from "../assets/kevinRushProfile.png"
+import profilePic from "../assets/adnan.png"
 import {motion} from "framer-motion"
 
 const container = (delay) => ({
@@ -33,7 +33,7 @@ const Hero = () => {
             animate="visible"
 
             className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
-              IT-Säkerhetsstudent
+              IT-Säkerhetsspecialist
             </motion.span>
 
             <motion.p 
@@ -45,7 +45,7 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-1/2 lg:p-5">
         <div className=" flex justify-center">
             <motion.img 
             initial={{x:100,opacity:0 }}
